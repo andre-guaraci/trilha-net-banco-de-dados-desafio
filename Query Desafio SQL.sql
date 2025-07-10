@@ -120,7 +120,7 @@ FROM Filmes AS f
 INNER JOIN FilmesGenero AS fg ON f.Id = fg.IdFilme
 INNER JOIN Generos AS g ON fg.IdGenero = g.Id
 
-WHERE g.Genero = 'Mistério'
+WHERE g.Genero = 'MistÃ©rio'
 
 --12
 SELECT
